@@ -27,7 +27,7 @@ jobs:
           cache: npm
 
       - name: Install deps
-        run: npm install
+        run: npm ci
 
       - name: Build Preact (Vite)
         run: npm run build
